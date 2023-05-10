@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fábrica de Pastas</title>
+  <a href="estilos/estilo.css"></a>
+  <link rel="stylesheet" href="estilos/estilo.css">
+</head>
+
+<body>
+
+
+  <style>
+    header img {
+      /* img es la imagen principalarriba de todo de la pagina*/
+      width: 100%;
+      /*con width ocupa siempre el 100% del ancho de la pantalla y se ajusta solo*/
+      max-height: 300px;
+      /* defino el alto*/
+      object-fit: cover;
+      /*La propiedad CSS object-fit especifica cómo se ajusta una imagen o video dentro de un elemento contenedor. El valor cover indica que la imagen o video debe cubrir completamente el área del elemento contenedor*/
+      
+    }
+
+    nav {
+      
+      background-color: rgb(106, 233, 106);
+      /*color de fondo para el navegador*/
+      padding: 10px 20px;
+      font-size: 21px;
+      width: 100%;
+    }
+  </style>
+
+  <header>
+    <img src="imagenes/portada.jpg" ; alt="Logo de la fábrica de pastas">
+    <!--alt="Logo de la fábrica de pastas": Define un texto alternativo que se muestra en caso de que la imagen no se pueda cargar correctamente-->
+  </header>
+
+  <!--encabezado de navegacion-->
+  <header>
+    <nav>
+      <a href="Quienes_somos.html"> Quienes Somos -</a>
+      <a href="Ubicacion.html"> Ubicación -</a>
+      <a href="Productos.html"> Todos los Productos -</a>
+      <a href="Promociones.html"> Promociones vigentes -</a>
+      <a href="Carrito _de _compras.html"> Carrito de Compras -</a>
+      <a href="Contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <div style="background-color: goldenrod; height: 100px; text-align: center; padding: 30px 50px; font-family: Georgia, serif;">
+    <!--le coloco una etiqueta div para hacer que en todo este contenedor que incluye h1 y h2 se aplique el estilo, div es un contenedor-->
+    <section style="line-height: 1;">
+      <h1 id="tituloppal">Bienvenidos a la Fábrica de Pastas</h1>
+      <!--con font-size doy tamaño al titulo y con line-height le dejo un espacio en blanco horizzontal-->
+      <h2>El sabor de la pasta casera</h2>
+    </section>
+  </div>
+
+  <section id="Pagina principal">
+
+    <h2 style="margin-top: 0px; font-family: Arial, sans-serif;">Aquí encontrarás una selección de nuestras mejores pastas frescas</h2>
+    <!--con margin top separo el texto en las 4 direcciones si quiero-->
+    
+
+  </section>
+
+
+
+  <!-- contenedor de las imagenes y la descripcion -->
+  <div class="container">
+
+    <div class="image-box">
+      <img src="imagenes/canelones.jpg">
+      <h3>CANELONES</h3>
+      <p class="description">Esta pasta es ideal para rellenar con carne, queso y espinacas, entre otros ingredientes.
+        Una sugerencia es hacer una deliciosa salsa bechamel para gratinar los canelones en el horno.</p>
+      <a href="Carrito _de _compras.html" target="_blank"><button
+          style="background-color: blue; border-radius: 20px;padding: 10px 20px; color: white; margin-top: 10px; border: none;">Ir
+          al carrito de compras</button></a>
+    </div>
+
+    <div class="image-box">
+      <img src="imagenes/fusilli-tirabuzon.jpg">
+      <h3>FUSILLI-TIRABUZON</h3>
+      <p class="description"> Esta pasta en espiral es muy versátil y se adapta a todo tipo de salsas. Una sugerencia es
+        acompañarla con una salsa de tomate casera y albóndigas de carne.</p>
+      <comp a href="Carrito _de _compras.html" target="_blank"><button>Ir al carrito de compras</button></a>
+    </div>
+
+    <div class="image-box">
+      <a href="Productos.html">Lasaña</a>
+      <img src="imagenes/lasaña.jpg">
+      <h3>LASAÑA</h3>
+      <p class="description">La lasaña es una pasta plana y ancha que se utiliza en capas para hacer un plato horneado
+        con carne, verduras, queso y salsa. Una sugerencia es hacer una lasaña de espinacas y ricotta con una salsa de
+        tomate casera.</p>
+    </div>
+
+
+    <div class="image-box">
+      <img src="imagenes/penne rigati.jpg">
+      <H3>PENNE RIGATTI</H3>
+      <p class="description">Esta pasta corta con forma de tubo es perfecta para salsas más espesas y cremosas. Una
+        sugerencia es prepararla con una salsa Alfredo de ajo y pollo.</p>
+    </div>
+
+
+    <div class="image-box">
+      <img src="imagenes/ravioles.jpg">
+      <H3>RAVIOLES</H3>
+      <p class="description">Los ravioles son una pasta rellena con ingredientes como queso, carne o espinacas. Una
+        sugerencia es hacer ravioles de ricotta y espinacas y servirlos con una salsa de tomate casera.</p>
+    </div>
+
+
+    <div class="image-box">
+      <img src="imagenes/sorrentinos.jpg">
+      <H3>SORRENTINOS</H3>
+      <p class="description">Los sorrentinos son similares a los ravioles, pero son más grandes y tienen forma de media
+        luna. Una sugerencia es hacer sorrentinos rellenos de jamón y queso y servirlos con una salsa blanca.</p>
+    </div>
+
+
+    <div class="image-box">
+      <img src="imagenes/taglioglini.jpg">
+      <H3>TAGLIOGLINI</H3>
+      <p class="description">Esta pasta larga y plana se combina bien con salsas ligeras y delicadas. Una sugerencia es
+        preparar tagliatelle con salsa de limón, ajo y camarones.</p>
+    </div>
+
+
+    <div class="image-box">
+      <img src="imagenes/tallarines blancos.jpg">
+      <H3>TALLARINES BLANCOS</H3>
+      <p class="description">Los tallarines son una pasta larga y delgada que se puede servir con salsas ligeras o más
+        cremosas. Una sugerencia es hacer tallarines con una salsa blanca de ajo y setas.</p>
+    </div>
+
+    <div class="image-box">
+      <img src="imagenes/tallarines.jpg">
+      <H3>TALLARINES</H3>
+      <p class="description">Son un tipo de pasta larga y delgada, originaria de la cocina italiana. Se elaboran a
+        partir de harina de trigo y agua, y se pueden encontrar en diferentes grosores y anchuras. Una sugerencia para
+        prepararlos es cocerlos en abundante agua con sal durante unos 8-10 minutos hasta que estén al dente, es decir,
+        cocidos pero aún firmes. Después, se pueden mezclar con la salsa elegida y servir caliente.</p>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <footer>
+    <p>Fábrica de Pastas CriMar- Todos los derechos reservados</p>
+  </footer>
+</body>
+
+</html>
